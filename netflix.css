@@ -1,0 +1,116 @@
+body{
+    height: 1500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0, rgba(0, 0, 7, 0) 60%, rgba(0, 0, 0, 0.9) 100%),url(/media/IN-en-20230731-popsignuptwoweeks-perspective_alpha_website_large\ \(1\).jpg);
+}
+.main{
+    height: 320px;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+
+}
+
+svg{
+    height: 70px;
+    width: 120%;
+    fill: red;
+    /* border: 2px solid red; */
+    box-sizing: border-box;
+    margin-left: 100px;
+    margin-top: -10px;
+    font-size: 80px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    /* clip: rect(0 0 0 0);
+    clip-path: inset(50%); */
+    color: red;
+}
+
+.side{
+    height: 150px;
+    width: 30%;
+    margin-left: 1000px;
+    /* border: 2px solid red; */
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-right: 200px;
+    display: flex;
+}
+
+.side select{
+    height: 40px;
+    width: 170px;
+    font-size: 20px;
+    cursor: pointer;
+    /* background-color: black; */
+    color: white;
+    background: transparent;
+    border-radius: 10px;
+}
+
+.side button{
+    height: 40px;
+    width: 120px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+
+.section{
+    height: 750px;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div1 h1{
+   font-size: 70px;
+   color: white;
+   font-weight: bolder;
+}
+
+.div2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+.div2 h2{
+    font-size: 40px;
+    color: white;
+}
+
+.div2 p{
+    font-size: 30px;
+    color: white;
+}
+
+.div3 input{
+    height: 65px;
+    width: 420px;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.753);
+   
+}
+
+.div3 button{
+    height: 65px;
+    width: 220px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
